@@ -290,9 +290,15 @@
       el('span', { class: 'texto-largo' }, ['Todas las unidades']),
       el('span', { class: 'texto-corto' }, ['Inicio'])
     ]) : null;
+    // Enlace a la web del curso, en todas las páginas.
+    var curso = CFG.web_curso ? el('a', { class: 'boton-cabecera', href: CFG.web_curso, target: '_blank', rel: 'noopener' }, [
+      el('span', { class: 'texto-largo' }, ['Apuntes del curso']),
+      el('span', { class: 'texto-corto' }, ['Apuntes']),
+      el('span', { 'aria-hidden': 'true' }, [' ↗'])
+    ]) : null;
     return el('header', { class: 'cabecera' }, [el('div', { class: 'envoltura cabecera-fila' }, [
       marca,
-      el('div', { class: 'cabecera-acciones' }, [volver, selectorApariencia()])
+      el('div', { class: 'cabecera-acciones' }, [curso, volver, selectorApariencia()])
     ])]);
   }
 

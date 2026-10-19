@@ -8,7 +8,9 @@ Responde **siempre en castellano**, aunque los mensajes incluyan catalán. Vale 
 
 Página web para **poner a prueba los conocimientos de Machine Learning** del curso de la profesora (https://mireiaconsarnau.github.io/machine_learning), **organizada por las unidades del curso**, para cualquiera que siga el curso.
 
-La web se llama **Repaso Lab** (18/10/2026, elegido por la profesora; descartados «Generaliza», los nombres con guiños al ML y los de estudiar, porque es para repasar, no para estudiar). En la cabecera: «Repaso Lab | Machine Learning» (`config.json → titulo` y `lema`).
+La web se llama **Repaso Lab** (18/10/2026, elegido por la profesora; descartados «Generaliza», los nombres con guiños al ML y los de estudiar, porque es para repasar, no para estudiar). En la cabecera: «Repaso Lab | Machine Learning» (`config.json → titulo` y `lema`) y, a la derecha, «Apuntes del curso ↗» (enlace a la web del curso, `config.json → web_curso`), «← Todas las unidades» dentro de una unidad y el botón de apariencia. Por debajo de 46rem, sin el lema y con los textos cortos («Apuntes ↗», «← Inicio»).
+
+Enlaces entre las dos webs (19/10/2026): la web del curso tiene «Repaso Lab» en su menú, después de «Licencia» (`nav_external_links` en el `_config.yaml` del repositorio `machine_learning`), y Repaso Lab enlaza al curso desde la cabecera y desde cada pregunta.
 
 Se publica en dos sitios con el mismo código (`web/`):
 

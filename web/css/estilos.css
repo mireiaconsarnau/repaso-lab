@@ -289,13 +289,17 @@ main.error { display: grid; gap: 12px; padding-block: 40px; }
   color: var(--banda-tinta);
   font-size: var(--t-s);
   white-space: nowrap;
+  text-decoration: none;
   cursor: pointer;
 }
 .boton-cabecera:hover { background: var(--banda-3); }
+/* Textos de la cabecera: sin el lema y con los botones en corto antes de que no quepan en una línea. */
 .texto-corto { display: none; }
-@media (max-width: 30rem) {
+@media (max-width: 46rem) {
   .texto-largo { display: none; }
   .texto-corto { display: inline; }
+}
+@media (max-width: 30rem) {
   .boton-cabecera { padding: 0 12px; }
 }
 
