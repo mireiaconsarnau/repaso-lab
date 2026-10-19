@@ -290,7 +290,7 @@
       el('span', { class: 'texto-largo' }, ['Todas las unidades']),
       el('span', { class: 'texto-corto' }, ['Inicio'])
     ]) : null;
-    // Enlace a la web del curso, en todas las páginas: botón en el petróleo de la web del curso, para que se vea.
+    // Enlace a la web del curso, en todas las páginas: botón blanco, para que se vea en la cabecera oscura.
     var curso = CFG.web_curso ? el('a', { class: 'boton-cabecera boton-curso', href: CFG.web_curso, target: '_blank', rel: 'noopener' }, [
       el('span', { class: 'texto-largo' }, ['Material del curso']),
       el('span', { class: 'texto-corto' }, ['Material']),

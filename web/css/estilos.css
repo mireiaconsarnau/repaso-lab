@@ -43,9 +43,11 @@
   --banda-3: #393939;
   --banda-tinta: #f4f4f4;
   --banda-tinta-2: #c6c6c6;
-  /* Botón «Material del curso» de la cabecera: el petróleo de la web del curso (sobre la barra oscura, igual en los dos modos) */
-  --curso: #0f6e7a;
-  --curso-hover: #0b5862;
+  /* Botón «Material del curso» de la cabecera: blanco, porque ningún color libre destaca sin repetir el de una unidad
+     (el petróleo del curso se confundía con el turquesa de Preprocesamiento). Sobre la barra oscura, igual en los dos modos. */
+  --curso: #f4f4f4;
+  --curso-hover: #ffffff;
+  --curso-tinta: #161616;
   /* Puntos de la ilustración de la portada (sobre la barra oscura) */
   --ilus-1: #be95ff;
   --ilus-2: #ff7eb6;
@@ -296,7 +298,7 @@ main.error { display: grid; gap: 12px; padding-block: 40px; }
   cursor: pointer;
 }
 .boton-cabecera:hover { background: var(--banda-3); }
-.boton-cabecera.boton-curso { align-self: center; min-height: 32px; margin-right: 8px; padding: 0 12px; background: var(--curso); color: #ffffff; font-weight: 600; }
+.boton-cabecera.boton-curso { align-self: center; min-height: 32px; margin-right: 8px; padding: 0 12px; background: var(--curso); color: var(--curso-tinta); font-weight: 600; }
 .boton-cabecera.boton-curso:hover { background: var(--curso-hover); }
 /* Textos de la cabecera: sin el lema y con los botones en corto antes de que no quepan en una línea. */
 .texto-corto { display: none; }
