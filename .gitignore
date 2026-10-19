@@ -1,0 +1,23 @@
+# --- No se publica: nombres de datasets reales y casos de pruebas (lo usa tools/validar_banco.py) ---
+# Cópialo a mano en cada ordenador.
+tools/prohibidos.txt
+
+# --- Web construida para GitHub Pages (tools/construir_web.py) ---
+_site/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# --- Configuración local de editores ---
+.vscode/
+.idea/
+.claude/settings.local.json

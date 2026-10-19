@@ -1,0 +1,94 @@
+{
+  "titulo": "Repaso Lab",
+  "lema": "Machine Learning",
+
+  "web_curso": "https://mireiaconsarnau.github.io/machine_learning/",
+  "artefacto": "https://claude.ai/artifact/YA1YZLvVcurULMRZGnsK5c",
+
+  "licencia": {
+    "obra": "Repaso Lab",
+    "autoria": "Mireia Consarnau",
+    "anio": "2026",
+    "nombre": "CC BY-NC-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es"
+  },
+
+  "niveles": [
+    {"id": 0, "nombre": "Primeros pasos", "descripcion": "Qué es y para qué sirve"},
+    {"id": 1, "nombre": "Aplica", "descripcion": "Lo básico, con datos concretos"},
+    {"id": 2, "nombre": "Comprende", "descripcion": "El porqué y cómo funciona"},
+    {"id": 3, "nombre": "Reto", "descripcion": "Razonar con casos e ir más allá"}
+  ],
+  "nivel_inicial": 1,
+
+  "primeros_pasos": {"id": "primeros-pasos", "nombre": "Primeros pasos", "corto": "Primeros pasos", "nivel": 0, "descripcion": "Lo más básico del machine learning, de todo el curso: para empezar desde cero."},
+
+  "unidades": [
+    {"id": "fundamentos", "codigo": "U1", "nombre": "Fundamentos de la IA y del aprendizaje automático", "corto": "Fundamentos", "descripcion": "Qué es la inteligencia artificial, tipos de aprendizaje y de problemas, tipos de variables y sesgos."},
+    {"id": "preprocesamiento", "codigo": "U2", "nombre": "Preprocesamiento de datos", "corto": "Preprocesamiento", "descripcion": "Limpieza, visualización, codificación, escalado, valores atípicos y PCA."},
+    {"id": "supervisado", "codigo": "U3", "nombre": "Aprendizaje supervisado", "corto": "Supervisado", "descripcion": "Clasificación y regresión: modelos, métricas, validación y sobreajuste."},
+    {"id": "no-supervisado", "codigo": "U4", "nombre": "Aprendizaje no supervisado", "corto": "No supervisado", "descripcion": "K-means, clustering jerárquico, DBSCAN y cómo evaluar los grupos."},
+    {"id": "redes", "codigo": "U5", "nombre": "Redes neuronales y modelos avanzados", "corto": "Redes", "descripcion": "Redes MLP, otras arquitecturas, autoencoders, transfer learning y algoritmos genéticos."}
+  ],
+
+  "todo_el_temario": {
+    "id": "todo",
+    "nombre": "Todo el temario",
+    "corto": "Todo el temario",
+    "descripcion": "Preguntas de todas las unidades."
+  },
+
+  "temas": {
+    "fundamentos": {"nombre": "Fundamentos del aprendizaje automático", "corto": "Fundamentos"},
+    "preprocesamiento": {"nombre": "Preprocesamiento", "corto": "Preprocesamiento"},
+    "clasificacion": {"nombre": "Clasificación y evaluación", "corto": "Clasificación"},
+    "regresion": {"nombre": "Regresión", "corto": "Regresión"},
+    "clustering": {"nombre": "Clustering", "corto": "Clustering"},
+    "redes": {"nombre": "Redes neuronales MLP", "corto": "Redes MLP"},
+    "otras-arquitecturas": {"nombre": "Otras arquitecturas de redes (CNN, RNN, GAN)", "corto": "Otras redes"},
+    "algoritmo-genetico": {"nombre": "Algoritmos genéticos", "corto": "Algoritmos genéticos"},
+    "autoencoder": {"nombre": "Autoencoders", "corto": "Autoencoders"},
+    "transfer-learning": {"nombre": "Transfer learning", "corto": "Transfer learning"}
+  },
+
+  "lecciones": {
+    "U1L1": {"titulo": "¿Qué es la IA?", "corto": "Qué es la IA", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad1/unidad1.html#lección-1-qué-es-la-ia-de-la-mente-humana-a-las-máquinas-inteligentes", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad1.html#leccion-1"},
+    "U1L2": {"titulo": "Aprendizaje automático: técnicas, usos y clasificación", "corto": "Aprendizaje automático", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad1/unidad1.html#lección-2-aprendizaje-automático-técnicas-usos-y-clasificación-en-la-ia", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad1.html#leccion-2"},
+    "U1L3": {"titulo": "Google Colab: entorno de trabajo", "corto": "Google Colab", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad1/unidad1.html#lección-3-google-collaboratory-entorno-práctico-para-el-desarrollo-de-proyectos-de-ia-y-aprendizaje-automático", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad1.html#leccion-3"},
+    "U2L1": {"titulo": "Importancia del preprocesamiento", "corto": "Importancia", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad2/unidad2.html#lección-1-importancia-del-preprocesamiento-calidad-y-consistencia-de-los-datos", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad2.html#leccion-1"},
+    "U2L2": {"titulo": "Limpieza de datos", "corto": "Limpieza", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad2/unidad2.html#lección-2-limpieza-de-datos-detección-y-tratamiento-de-valores-nulos-duplicados-y-errores", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad2.html#leccion-2"},
+    "U2L3": {"titulo": "Visualización exploratoria", "corto": "Visualización", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad2/unidad2.html#lección-3-visualización-exploratoria-distribuciones-correlaciones-y-detección-de-problemas", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad2.html#leccion-3"},
+    "U2L4": {"titulo": "Transformación de datos", "corto": "Transformación", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad2/unidad2.html#lección-4-transformación-de-datos-normalización-codificación-y-escalado", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad2.html#leccion-4"},
+    "U2L5": {"titulo": "Selección y reducción de características", "corto": "Selección y PCA", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad2/unidad2.html#lección-5-selección-y-reducción-de-características-filtrado-pca-y-técnicas-avanzadas", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad2.html#leccion-5"},
+    "U3L1": {"titulo": "¿Qué es el aprendizaje supervisado?", "corto": "Fases y validación", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad3/unidad3.html#lección-1-qué-es-el-aprendizaje-supervisado-fases-y-flujo-de-trabajo", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad3.html#leccion-1"},
+    "U3L2": {"titulo": "Modelos de clasificación", "corto": "Clasificación", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad3/unidad3.html#lección-2-modelos-supervisados-para-clasificación-algoritmos-métricas-y-usos", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad3.html#leccion-2"},
+    "U3L3": {"titulo": "Modelos de regresión", "corto": "Regresión", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad3/unidad3.html#lección-3-modelos-supervisados-para-regresión-algoritmos-métricas-y-usos", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad3.html#leccion-3"},
+    "U4L1": {"titulo": "¿Qué es el aprendizaje no supervisado?", "corto": "Conceptos y métricas", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad4/unidad4.html#lección-1-qué-es-el-aprendizaje-no-supervisado-conceptos-y-proceso-general", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad4.html#leccion-1"},
+    "U4L2": {"titulo": "K-means y agrupamiento jerárquico", "corto": "K-means y jerárquico", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad4/unidad4.html#lección-2-agrupación-con-k-medias-y-métodos-jerárquicos-funcionamiento-y-aplicación", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad4.html#leccion-2"},
+    "U4L3": {"titulo": "Agrupación por densidad (DBSCAN)", "corto": "DBSCAN", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad4/unidad4.html#lección-3-agrupación-basada-en-densidad-detección-de-formas-y-estructuras-complejas", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad4.html#leccion-3"},
+    "U5L1": {"titulo": "Redes neuronales artificiales", "corto": "Redes neuronales", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad5/unidad5.html#lección-1-redes-neuronales-artificiales", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad5.html#leccion-1"},
+    "U5L2": {"titulo": "Otras arquitecturas de redes neuronales", "corto": "Otras arquitecturas", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad5/unidad5.html#lección-2-otras-arquitecturas-de-redes-neuronales", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad5.html#leccion-2"},
+    "U5L3": {"titulo": "Transfer learning y metaheurísticas", "corto": "Transfer learning y AG", "url": "https://mireiaconsarnau.github.io/machine_learning/unidad5/unidad5.html#lección-3-evolución-del-aprendizaje-profundo-y-otras-técnicas-modernas-de-ml", "infografia": "https://mireiaconsarnau.github.io/machine_learning/resumenes/unidad5.html#leccion-3"}
+  },
+
+  "pestanas": [
+    {"id": "repaso", "nombre": "Repaso", "resumen": "Test y preguntas con solución", "estado": "disponible"},
+    {"id": "practica", "nombre": "Practica con casos", "resumen": "Claude corrige tu respuesta", "estado": "disponible", "descripcion": "Escribirás tu respuesta a un caso práctico y Claude te dirá qué está bien, qué está mal y qué te falta, comparándola con la solución y los criterios de corrección. Sin nota.", "requisito": "Necesitarás una cuenta gratuita de Claude."}
+  ],
+
+  "tutor": {
+    "id": "dudas",
+    "nombre": "Resuelve tus dudas",
+    "descripcion": "Pregunta lo que no te haya quedado claro de la teoría, o pega tu código o el error que te da. Un tutor con IA te lo explica con el material del curso y un ejemplo, y te dice dónde repasarlo. No te hace los ejercicios.",
+    "requisito": "Necesitas una cuenta de Claude (sirve la gratuita).",
+    "cuadernos": "https://colab.research.google.com/github/mireiaconsarnau/machine_learning/blob/main/unidad{u}/cuadernos/{c}.ipynb"
+  },
+
+  "sugerencias_dudas": {
+    "fundamentos": ["¿Qué diferencia hay entre IA, machine learning y deep learning?", "¿Cómo sé si un problema es de clasificación o de regresión?", "¿Por qué un modelo puede estar sesgado si solo aprende de datos?", "¿Qué diferencia hay entre un parámetro y un hiperparámetro?"],
+    "preprocesamiento": ["¿Cuándo imputo con la media y cuándo con la mediana?", "¿Qué diferencia hay entre LabelEncoder y One-Hot?", "¿Por qué hay que ajustar el escalador solo con el entrenamiento?", "¿Qué hago con los valores atípicos: los elimino o no?"],
+    "supervisado": ["¿Qué diferencia hay entre precisión y sensibilidad?", "¿Por qué no basta con mirar la exactitud?", "¿Cómo sé si mi modelo está sobreajustado?", "¿Para qué sirve la validación cruzada?"],
+    "no-supervisado": ["¿Cómo elijo el número de grupos en K-Means?", "¿Qué significan eps y min_samples en DBSCAN?", "¿Cómo interpreto la silueta?", "¿Cuándo uso DBSCAN en lugar de K-Means?"],
+    "redes": ["¿Qué son las épocas y el tamaño del lote?", "¿Qué capa de salida pongo en cada tipo de problema?", "¿Qué es el transfer learning y cuándo conviene?", "¿Cómo funciona un algoritmo genético?"]
+  }
+}
